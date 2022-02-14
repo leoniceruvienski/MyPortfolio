@@ -275,16 +275,19 @@ img{
     z-index: var(--z-back);
 }
 .skills__html{
-    width: 95%;
+    width: 53%;
 }
-.skills__css{
-    width: 85%;
+.skills__css3{
+    width: 8%;
 }
 .skills__js{
-    width: 65%;
+    width: 30%;
 }
-.skills__ux{
-    width: 85%;
+.skills__ts{
+    width: 1%;
+}
+.skills__scss{
+   width: 9%
 }
 .skills__img{
     border-radius: .5rem;
