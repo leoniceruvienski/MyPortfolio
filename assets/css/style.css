@@ -6,8 +6,8 @@
 }
 /*cores*/
 :root{
-    --first-color: #4070f4;
-    --second-color:#0e2431;
+    --first-color: #ff004c;
+    --second-color:#264a5f;
 }
 /*fonte e tipografia*/
 :root{
@@ -214,7 +214,7 @@ img{
      color: #fff;
      padding: .75rem 2.5rem;
      font-weight: var(--font-semi);
-     border-radius: .5rem;
+     border-radius: 2rem;
  }
  .button:hover{
      box-shadow: 0 10px 36px rgba(0,0,0,.15);
@@ -344,11 +344,22 @@ img{
   }
   .footer__social{
     margin-bottom: var(--mb-4);
+    color: black !important;
   }
   .footer__icon{
     font-size: 1.5rem;
     color: #fff;
     margin: 0 var(--mb-2)
+  }
+
+  .email{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+  }
+  .logo_email{
+    font-size: 40px;
+    margin-right: 10px;
   }
   
   /* ===== MEDIA QUERIES=====*/
